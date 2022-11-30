@@ -22,10 +22,10 @@ Since this website is for both Ambassadors and non-ambassadors, this website has
 ## Features
 main page:
 - [ ] ambs introduction
-    * allows non ambassadors to get a deeper undestanding on ambassadors by hvaing anintroduction page with pictures
+    * allows non ambassadors to get a deeper undestanding on ambassadors by having anintroduction page with pictures
     * what do ambassadors do in our organisation, who are we and what we stand for
 - [ ] link to (requires login):
-    - [ ] duty sign up (details about the date,, location, time, number of people required and the number of sign ups already)
+    - [ ] duty sign up (details about the date, location, time, number of people required and the number of sign ups already)
     * this is for ambassadors to sign up for their respective duties/events
     - [ ] past duties completed & duty required per sem/overall
     * for ambassadors to see the consolidated that they have done the past years as well as the overall/sem duty requirements for ambs to cross refer to
