@@ -28,7 +28,7 @@
     }
     
     #navbar__logo {
-        background-color: white;
+        background-color: white         ;
         background-size: 100%;
         -webkit-background-clip: text;
         -moz-background-clip: text;
@@ -57,7 +57,7 @@
     }
     
     .navbar__links {
-        color: aliceblue;
+        color: black;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -93,7 +93,7 @@
     }
     
     .navbar__links {
-        color: antiquewhite;
+        color: black;
         transition: all 0.3s ease;
     }
     
@@ -160,5 +160,30 @@
             transform: translate(5%, 20%);
         }
     
-        .navbar__btn
+        .navbar__btn {
+            padding-bottom: 2rem;
+        }
+
+        .button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            height: 80px;
+            margin: 0;
+        }
+
+        .navbar__toggle .bar {
+            display: block;
+            cursor: pointer;
+        }
+
+        #mobile-menu.is-active .bar:nth-child(2) {
+            opacity: 0;
+        }
+        #mobile-menu.is-active .bar:nth-child(1) {
+            transform: translateY(8px) rotate(45deg);
+        }
+        #mobile-menu.is-active .bar:nth-child(20) {
+            opacity: 0;
     }
