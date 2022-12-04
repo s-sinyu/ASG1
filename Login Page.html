@@ -6,18 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css" type="text/css"/>
-    <link rel="stylesheet" href="Main-Page.css" type="text/css">
     <link rel="stylesheet" href="Login-Page.css" type="text/css">
     <link rel="stylesheet" href="Duty Page.css" type="text/css">
-    <script src="../scripts/app.js" defer></script>
+    <script src="../scripts/Login-Page-script.js" type="text/script"></script>
 </head>
 <body>
-    <section class="login">
-        <label for="studentID">Student ID</label>
-        <input type="text" id="studentID" name="studentID" placeholder="StudentID" required>
-        <label for="pass">Password</label>
-        <input type="text" id="pass" name="pass" placeholder="Password" required>
-        <button type="submit" id="login-submit">Login</button>
-    </section>
+    <div id="container">
+        <div id="main">
+        <h2>Ambassadors login</h2>
+        <form class="login" action="C:\Users\sin yu\OneDrive - Ngee Ann Polytechnic\Desktop\Year 1\semester 2\Interactive Development\Assignment 1 (ID)\ASG1\Duty Page.html" method="post">
+            <label for="studentID">Student ID</label>
+            <input type="text" id="studentID" name="studentID" placeholder="StudentID" required>
+            <label for="pass">Password</label>
+            <input type="password" id="pass" name="pass" placeholder="Password" required>
+            
+            <input type="checkbox" onclick="Toggle()"><b>Show Password</b>
+            <button type="submit" id="login-submit" onclick="Login-Page-script.js">Login</button>
+        </form>
+        </div>
+    </div>
 </body>
 </html>
